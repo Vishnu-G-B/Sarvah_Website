@@ -661,6 +661,11 @@ body.homepage-bg1.offcanvas-open {
 .learts-mb-30 {
   margin-bottom: 30px;
 }
+
+.learts-mb-30-unique {
+  margin-left: -200px;
+}
+
 .learts-mb-n30 {
   display: flex;
   justify-content: space-around;
@@ -14011,12 +14016,7 @@ body.offcanvas-open .sticky-header {
   }
 }
 
-.row.learts-mb-n30.unique2 {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  flex: 1;
-  gap: 100px;
-}
+
 
 .mb-0 {
   font-size: 20px;
