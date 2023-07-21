@@ -492,8 +492,8 @@ body.homepage-bg1.offcanvas-open {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 49.999998%;
     -ms-flex: 0 0 49.999998%;
-    flex: 0 0 49.999998%;
-    max-width: 49.999998%;
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1500px) {
@@ -662,6 +662,8 @@ body.homepage-bg1.offcanvas-open {
   margin-bottom: 30px;
 }
 .learts-mb-n30 {
+  display: flex;
+  justify-content: space-around;
   margin-bottom: -30px;
 }
 .learts-mb-40 {
@@ -3073,7 +3075,7 @@ body.offside-header-left {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 1170px;
+  width: 110px;
   margin: 0;
   padding: 30px 30px 30px 10px;
   list-style: none;
@@ -3867,6 +3869,7 @@ body.offcanvas-open .sticky-header {
   flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px;
+  margin-top: 10px;
 }
 .offcanvas-social a {
   line-height: 1;
@@ -7504,6 +7507,7 @@ body.offcanvas-open .sticky-header {
 }
 .section-title2 {
   margin-bottom: 80px;
+  /* margin-top: -80px; */
 }
 .section-title2 .sub-title {
   font-family: "Modesty";
@@ -8842,13 +8846,17 @@ body.offcanvas-open .sticky-header {
   position: relative;
   display: block;
   margin-bottom: 40px;
+  width: 264px;
+  height: 264px;
 }
 .category-banner5 .inner .image img {
   display: block;
   width: 100%;
+  height: 100%;
   max-width: 264px;
   margin: auto;
   border-radius: 50%;
+  object-fit: cover;
 }
 .category-banner5 .inner .content {
   margin: 0;
@@ -11392,6 +11400,9 @@ body.offcanvas-open .sticky-header {
 }
 .blog .image a img {
   width: 100%;
+  height: 300px;
+  /* aspect-ratio: 16/9; */
+  object-fit: cover;
 }
 .blog .content .meta {
   display: -webkit-box;
@@ -11429,6 +11440,7 @@ body.offcanvas-open .sticky-header {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
+  text-align: center;
 }
 .blog .content .title a:hover {
   color: #333;
@@ -12588,6 +12600,10 @@ body.offcanvas-open .sticky-header {
 }
 .widget-about img {
   margin-bottom: 20px;
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+
 }
 .widget-about img:last-child {
   margin-bottom: 0;
@@ -13994,8 +14010,25 @@ body.offcanvas-open .sticky-header {
     margin-bottom: 20px;
   }
 }
+
+.row.learts-mb-n30.unique2 {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+  gap: 100px;
+}
+
+.mb-0 {
+  font-size: 20px;
+  font-weight: 350;
+  margin: 10px 0 20px 0;
+  letter-spacing: 2px;
+  line-height: 1.25;
+  color: #333;
+}
+
 .about-us4 .sub-title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   display: block;
   margin-bottom: 20px;
@@ -14228,4 +14261,8 @@ body.offcanvas-open .sticky-header {
     font-size: 12px;
     letter-spacing: 0;
   }
+}
+
+.section-title2.text-center.unique {
+  margin-top: -100px;
 }
