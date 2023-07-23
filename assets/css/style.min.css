@@ -12403,6 +12403,8 @@ body.offcanvas-open .sticky-header {
 }
 .portfolio .thumbnail img {
   width: 100%;
+  height: 330px;
+  object-fit: cover;
 }
 .portfolio .content {
   position: absolute;
@@ -12420,6 +12422,7 @@ body.offcanvas-open .sticky-header {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
+  text-align: center;
 }
 .portfolio .content .title a:hover {
   color: #333;
@@ -14261,4 +14264,10 @@ body.offcanvas-open .sticky-header {
 
 .section-title2.text-center.unique {
   margin-top: -100px;
+}
+
+.learts-mb-n30.product {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
 }
