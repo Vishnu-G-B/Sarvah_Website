@@ -2678,14 +2678,12 @@ body.offside-header-left {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 .header-logo a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 5px;
+    /* padding: 5px; */
     text-decoration: none; 
     color: #000; 
 }
@@ -14270,4 +14268,10 @@ body.offcanvas-open .sticky-header {
   display: flex;
   justify-content: center;
   margin-bottom: -30px;
+}
+
+@media (max-width: 768px) {
+  #scrollUp{
+    display: none;
+  }
 }
