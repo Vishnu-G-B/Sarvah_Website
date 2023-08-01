@@ -7724,6 +7724,12 @@ body.offcanvas-open .sticky-header {
   content: ">";
   color: #333;
 }
+
+.page-title .breadcrumb .breadcrumb-item.product + .breadcrumb-item::before {
+  content: ">";
+  color: white;
+}
+
 .page-title .breadcrumb .breadcrumb-item a:hover {
   color: #333;
 }
