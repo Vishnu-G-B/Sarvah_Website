@@ -5580,6 +5580,12 @@ body.offcanvas-open .sticky-header {
     font-size: 40px;
   }
 }
+@media screen and (max-width: 767px) {
+  .home3-slide-content .link {
+    display: none; /* Hide the button on mobile phones */
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .home3-slide-content .sub-title {
     font-size: 36px;
