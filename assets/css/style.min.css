@@ -2691,6 +2691,7 @@ body.offside-header-left {
 .header-logo a img {
     width: 200px;
     height: auto;
+    justify-content: flex-start;
   }
 
 .header-lan-curr {
