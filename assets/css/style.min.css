@@ -7498,13 +7498,15 @@ body.offcanvas-open .sticky-header {
 }
 @media only screen and (max-width: 575px) {
   .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
   }
   .section-title .sub-title {
     font-size: 40px;
   }
   .section-title .title {
-    font-size: 24px;
+    font-size: 45px;
+    font-weight: 400;
   }
   .section-title .title::before,
   .section-title .title::after {
